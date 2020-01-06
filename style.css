@@ -1,0 +1,73 @@
+
+.quiz, .summary {
+    display: none;
+}
+
+
+.start h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(210, 30, 120);
+}
+
+.quiz h2 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 2rem;
+font-weight: bold;
+color: chocolate;
+}
+
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: darkblue;
+    font-style: normal;
+    list-style: disc;
+    padding: 1rem;
+    width: 30%;
+    
+}
+
+.selected {
+    background-color: yellowgreen;
+}   
+
+.quiz li {
+    cursor: pointer;
+}
+
+.quiz a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: red; 
+}
+
+.summary a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red; 
+}
+
+.summary h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color:white; 
+    background-color: black;
+    width: 50%;
+    
+}
+
+
+.summary p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-synthesis: style;
+    color:black; 
+}
